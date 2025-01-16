@@ -1,0 +1,63 @@
+.rolling-image{
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: roll 8s linear infinite;
+        }
+ 
+ @keyframes roll{
+            0%{
+                transform: translateX(0) rotate(0deg);
+            }
+            6.25%{
+                transform: translateX(200px) rotate(120deg);
+            }
+            12.5%{
+                transform: translateX(400px) rotate(240deg);
+            }
+            18.75%{
+                transform: translateX(600px) rotate(360deg);
+            }
+            25%{
+                transform: translateX(800px) rotate(480deg);
+            }
+            31.25%{
+                transform: translateX(600px) rotate(600deg);
+            }
+            37.5%{
+                transform: translateX(400px) rotate(720deg);
+            }
+            43.75%{
+                transform: translateX(200px) rotate(840deg);
+            }
+            50%{
+                transform: translateX(0) rotate(960deg);
+            }
+            56.25%{
+                transform: translateX(-200px) rotate(840deg);
+            }
+            62.5%{
+                transform: translateX(-400px) rotate(720deg);
+            }
+            68.75%{
+                transform: translateX(-600px) rotate(600deg);
+            }
+            75%{
+                transform: translateX(-800px) rotate(480deg);
+            }
+            81.25%{
+                transform: translateX(-600px) rotate(360deg);
+            }
+            87.5%{
+                transform: translateX(-400px) rotate(240deg);
+            }
+            93.75%{
+                transform: translateX(-200px) rotate(120deg);
+            }
+            100%{
+                transform: translateX(0) rotate(0deg);
+            }
+        }
+
+<img src="" alt="転がる画像" class="rolling-image" width="" height="">
