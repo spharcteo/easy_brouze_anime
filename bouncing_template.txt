@@ -1,0 +1,21 @@
+.bounce-image{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: bounce 3s ease-in-out infinite;
+        }
+        
+@keyframes bounce{
+            0%, 20%, 50%, 80%, 100%{
+                transform: translate(-50%, -50%) translateY(0) ;
+            }
+            40%{
+                transform: translate(-50%, -50%) translateY(-30px);
+            }
+            60%{
+                transform: translate(-50%, -50%) translateY(-15px);
+            }
+        }
+        
+<img src="" alt="弾む画像" class="bounce-image" width="" height="">
